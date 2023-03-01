@@ -31,7 +31,7 @@ summaryLength = 30
   homepage_button_link = '/docs'
   homepage_button_text = 'Get Started'
   homepage_intro = 'Learn how to use certwatcher engine to write your own custom template to catch phishing sites and much more.'
-  homepage_image = '/images/terminal.gif'
+  homepage_image = 'https://user-images.githubusercontent.com/110246050/222279066-75c7c109-4dd2-494e-9727-b63ad69074b2.png'
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
