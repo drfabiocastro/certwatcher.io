@@ -1,11 +1,11 @@
 ---
-title: 'Hugo Whisper'
+title: 'Templating Guide'
 date: 2019-02-11T19:27:37+10:00
-weight: 6
-draft: true
+draft: false
+weight: 5
 ---
 
-Whisper is a minimal documentation theme built for Hugo. The design &amp; functionality is intentionally minimal.
+Templates are an essential component of Certwatcher's detection engine. They allow the tool to detect patterns in SSL/TLS certificates, URLs, and tokens, enabling the user to customize the tool to meet their specific needs.
 
 <!--more-->
 
