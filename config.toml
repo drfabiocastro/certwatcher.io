@@ -29,7 +29,7 @@ summaryLength = 30
 [params]
   google_analytics_id=""
   homepage_button_link = '/docs'
-  homepage_button_text = 'Get Started'
+  homepage_button_text = 'Getting Started'
   homepage_intro = 'Learn how to use certwatcher engine to write your own custom template to catch phishing sites and much more.'
   homepage_image = 'images/terminal.png'
 
