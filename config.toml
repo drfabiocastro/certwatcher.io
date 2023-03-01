@@ -37,7 +37,7 @@ summaryLength = 30
   # enable_anchor_link = true
 
   [params.homepage_meta_tags]
-    meta_og_title = "certwatcher.io"
+    meta_og_title = "Learn how to use certwatcher engine to write your own custom template."
     meta_og_type = "website"
     meta_og_url = "https://certwatcher.io/"
     meta_og_image = "https://certwatcher.io/static/images/certwatcher_logo.png"
