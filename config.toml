@@ -1,4 +1,4 @@
-baseURL = "www.example.com"
+baseURL = "certwatcher.io"
 languageCode = "en-us"
 title = "Certwatcher Documentation"
 theme = "hugo-whisper-theme"
@@ -31,21 +31,20 @@ summaryLength = 30
   homepage_button_link = '/docs'
   homepage_button_text = 'Get Started'
   homepage_intro = 'Learn how to use certwatcher engine to write your own custom template to catch phishing sites and much more.'
-  homepage_image = 'https://user-images.githubusercontent.com/110246050/222279066-75c7c109-4dd2-494e-9727-b63ad69074b2.png'
+  homepage_image = 'images/terminal.png'
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
 
   [params.homepage_meta_tags]
-    meta_description = "Hugo Whisper is a documentation theme built with Hugo."
-    meta_og_title = "Hugo Whisper Theme"
+    meta_og_title = "certwatcher.io"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-whisper.netlify.app"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
-    meta_og_description = "Hugo Whisper is a documentation theme built with Hugo."
+    meta_og_url = "https://certwatcher.io/"
+    meta_og_image = "https://certwatcher.io/static/images/certwatcher_logo.png"
+    meta_og_description = "Certwatcher.io is a SSL/TLS certificate monitoring and management tool that automates continuous certificate"
     meta_twitter_card = "summary"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
+    meta_twitter_site = "@drfabiocastro"
+    meta_twitter_creator = "@drfabiocastro"
 
   [params.logo]
       mobile = "/images/logo-mobile.svg"
