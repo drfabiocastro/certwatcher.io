@@ -1,52 +1,35 @@
 ---
-title: 'Configuration'
-date: 2019-02-11T19:30:08+10:00
+title: 'Templates Examples'
+date: 2019-02-11T19:27:37+10:00
 draft: false
-summary: Syntax highlighting and menus can be configured via `config.toml`.
 ---
 
-## Syntax Highlighting
+A step-by-step guide to installing and configuring Certwatcher Engine for production environments.
 
-Whisper uses the in-built code highlighting that ships with hugo. https://gohugo.io/content-management/syntax-highlighting/
+<!--more-->
+
+## Quickstart
+
+Copy or git clone this theme into the sites themes folder `mynewsite/themes`
+
+```
+hugo new site whisper
+git clone https://github.com/jugglerx/hugo-whisper-theme.git
+```
+
+### Code Highlighting
+
+Whisper uses Hugo's in-built code highlighting with a github style code highlighting theme. https://gohugo.io/content-management/syntax-highlighting/
 
 You can insert code snippets in any markdown file by using standard code fences syntax ie:
 
-````
-```
-insert code here
-```
-````
-
-You can specify the langauge by adding a declaration after the backticks
-
-````
-```javascript
-insert code here
-```
-````
-
-### Pygments Options
-
-The following code highlighting options are configured in the `config.toml`
-
-```toml
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsUseClasses = true
-```
-
-## Main menu
-
-Configure the main menu by editing the `config.toml`
-
-```toml
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "Docs"
-url = "/docs/"
-weight = 2
+```js
+function myFunction() {
+  var x = document.getElementById('myDIV');
+  if (x.style.display === 'none') {
+    x.style.display = 'block';
+  } else {
+    x.style.display = 'none';
+  }
+}
 ```

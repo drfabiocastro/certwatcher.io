@@ -5,7 +5,7 @@ draft: false
 weight: 5
 ---
 
-Templates are an essential component of Certwatcher's detection engine. They allow the tool to detect patterns in SSL/TLS certificates, URLs, and tokens, enabling the user to customize the tool to meet their specific needs.
+A detailed guide on creating and customizing templates with Certwatcher Engine.
 
 <!--more-->
 

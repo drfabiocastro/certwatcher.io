@@ -5,7 +5,7 @@ draft: false
 weight: 2
 ---
 
-Whisper is a minimal documentation theme built for Hugo. The design &amp; functionality is intentionally minimal.
+A step-by-step guide to installing and configuring Certwatcher Engine for production environments.
 
 <!--more-->
 
