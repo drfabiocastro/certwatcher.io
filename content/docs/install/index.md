@@ -24,7 +24,7 @@ Before you start, you'll need to ensure that the following prerequisites are met
 
 To get started with Certwatcher, you'll need to clone the project repository. You can do this using Git by running the following command:
 
-```
+```bash
 
   git clone https://github.com/drfabiocastro/certwatcher
   cd certwatcher
@@ -38,7 +38,7 @@ To get started with Certwatcher, you'll need to clone the project repository. Yo
 
 To use Certwatcher, run the following command:
 
-``` 
+```bash
   ./certwatcher --help
 ```
 
