@@ -8,28 +8,14 @@ A section containing answers to frequently asked questions about Certwatcher Eng
 
 <!--more-->
 
-## Quickstart
+### What is Certwatcher?
 
-Copy or git clone this theme into the sites themes folder `mynewsite/themes`
+Certwatcher is a tool designed to monitor certificate logs and detect patterns of interest for analysis. It can be used for security purposes, such as identifying potential phishing sites or detecting malware, or for auditing and compliance purposes.
 
-```
-hugo new site whisper
-git clone https://github.com/jugglerx/hugo-whisper-theme.git
-```
+### How does Certwatcher work?
 
-### Code Highlighting
+Certwatcher works by continuously monitoring certificate logs and comparing the log entries against templates defined in YAML format. These templates can be customized to match specific patterns of interest, such as identifying phishing sites or detecting API keys and access tokens. When a match is found, Certwatcher can trigger alerts or take other automated actions.
 
-Whisper uses Hugo's in-built code highlighting with a github style code highlighting theme. https://gohugo.io/content-management/syntax-highlighting/
+### Is Certwatcher open source?
 
-You can insert code snippets in any markdown file by using standard code fences syntax ie:
-
-```js
-function myFunction() {
-  var x = document.getElementById('myDIV');
-  if (x.style.display === 'none') {
-    x.style.display = 'block';
-  } else {
-    x.style.display = 'none';
-  }
-}
-```
+Yes, Certwatcher is released under the Apache License, Version 2.0, and the source code is available on GitHub.

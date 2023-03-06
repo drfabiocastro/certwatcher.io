@@ -79,7 +79,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ### Matchers
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+Each matcher is a dictionary with three fields:``pattern``, ```type``` and ```description```. The ```pattern``` field contains a regular expression that is used to procure patterns in an HTTP request body. The field ```type``` specifies where to look for the pattern, such as the body of the request or the heads of the request. The "description" field provides a description of which pattern it corresponds to.
 
 ``` yaml
 
@@ -99,11 +99,11 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ```
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.
+The provided matchers are used to find specific strings, such as tokens, API keys, email addresses, tracking IDs, AdSense publisher IDs, Google Ads conversion IDs, and Google Tag Manager container IDs.
 
 ### Top-Level Domain (TLDs)
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+TLDs (Top Level Domains) are the highest level in the hierarchical domain name system of the internet. These patterns is to identify and match URLs that contain top-level domains (TLDs) commonly used for phishing, which is the practice of deceiving users into providing personal information such as passwords, banking or credit card information.
 
 ``` yaml
 
@@ -118,9 +118,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 
 ```
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+When working with templates, it's important to keep TLDs in mind to ensure that URLs are properly formatted and link to the intended web page.
 
 ### Structure of the template:
 
@@ -134,5 +132,3 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 - `keywords`: a list of keywords relevant to the keyword set.
 - `matchers`: a list of match types used to identify keywords on phishing sites. Includes an exact word match and a pattern match to identify specific form fields.
 - `tlds`: a list of top-level domain patterns used to identify URLs relevant to the keyword set. Includes a description of each pattern.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.
