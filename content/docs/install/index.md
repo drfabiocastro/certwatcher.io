@@ -28,7 +28,7 @@ To get started with Certwatcher, you'll need to clone the project repository. Yo
 
   git clone https://github.com/drfabiocastro/certwatcher
   cd certwatcher
-  go build cmd/certwatcher/main.go
+  make
   sudo make install
 
 
