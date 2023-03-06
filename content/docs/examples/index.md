@@ -4,7 +4,7 @@ date: 2019-02-11T19:27:37+10:00
 draft: false
 ---
 
-A step-by-step guide to installing and configuring Certwatcher Engine for production environments.
+A step-by-step guide to installing and configuring Certwatcher.
 
 <!--more-->
 

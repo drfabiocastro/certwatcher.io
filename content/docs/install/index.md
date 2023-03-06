@@ -5,32 +5,42 @@ draft: false
 weight: 2
 ---
 
-A step-by-step guide to installing and configuring Certwatcher Engine for production environments.
+A step-by-step guide to installing and configuring Certwatcher.
 
 <!--more-->
 
 ## Quickstart
 
-Copy or git clone this theme into the sites themes folder `mynewsite/themes`
+Certwatcher is an SSL/TLS certificate monitoring tool, written in Go. This guide will walk you through the steps necessary to install and run.
+
+###### Prerequisites
+Before you start, you'll need to ensure that the following prerequisites are met:
+
+- Go is installed on your system. You can download the latest version of Go from the official website: https://golang.org/dl/
+
+- Git is installed on your system. You can download the latest version of Git from the official website: https://git-scm.com/downloads
+
+###### Installation
+
+To get started with Certwatcher, you'll need to clone the project repository. You can do this using Git by running the following command:
 
 ```
-hugo new site whisper
-git clone https://github.com/jugglerx/hugo-whisper-theme.git
+
+  git clone https://github.com/drfabiocastro/certwatcher
+  cd certwatcher
+  go build cmd/certwatcher/main.go
+  sudo make install
+
+
 ```
 
-### Code Highlighting
+###### Usage
 
-Whisper uses Hugo's in-built code highlighting with a github style code highlighting theme. https://gohugo.io/content-management/syntax-highlighting/
+To use Certwatcher, run the following command:
 
-You can insert code snippets in any markdown file by using standard code fences syntax ie:
-
-```js
-function myFunction() {
-  var x = document.getElementById('myDIV');
-  if (x.style.display === 'none') {
-    x.style.display = 'block';
-  } else {
-    x.style.display = 'none';
-  }
-}
+``` 
+  ./certwatcher --help
 ```
+
+##### Conclusion
+Congratulations! You have successfully installed and run Certwatcher. You can now configure custom templates 1to monitor the SSL/TLS certificates

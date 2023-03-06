@@ -5,7 +5,7 @@ draft: false
 weight: 5
 ---
 
-A detailed guide on creating and customizing templates with Certwatcher Engine.
+A detailed guide on creating and customizing templates.
 
 <!--more-->
 
