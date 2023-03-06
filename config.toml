@@ -25,6 +25,10 @@ summaryLength = 30
     name = "Docs"
     url = "/docs/"
     weight = 2
+[[menu.main]]
+    name = "Github"
+    url = "https://github.com/drfabiocastro/certwatcher"
+    weight = 2
 
 [params]
   google_analytics_id=""
